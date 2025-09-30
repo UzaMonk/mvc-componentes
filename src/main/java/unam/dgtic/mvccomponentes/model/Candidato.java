@@ -36,7 +36,7 @@ public class Candidato {
     @Email(message = "Correo debe ser válido")
     String correo;
 
-    @Pattern(regexp = "^\\d{2}-\\d{8}$", message = "EDl teléfono debe tener el formato XX-XXXXXXXX")
+    @Pattern(regexp = "^\\d{2}-\\d{8}$", message = "El teléfono debe tener el formato XX-XXXXXXXX")
     String telefono;
 
     Date fecha;
