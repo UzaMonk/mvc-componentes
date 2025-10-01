@@ -1,6 +1,5 @@
 package unam.dgtic.mvccomponentes.service;
 
-import org.springframework.stereotype.Service;
 import unam.dgtic.mvccomponentes.model.Candidato;
 
 import java.util.List;
